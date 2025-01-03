@@ -15,8 +15,8 @@
     @apply text-5xl;
   }
 
-  h2{
-    @apply text-lg
+  h2 {
+    @apply text-lg;
   }
 
   label {
@@ -25,4 +25,7 @@
 }
 
 @layer components {
+  .btn__add-task {
+    @apply flex touch-manipulation items-center gap-2 rounded-lg bg-eerieBlack px-4 py-2 text-base font-semibold text-white transition-all hover:shadow-md active:scale-95;
+  }
 }
